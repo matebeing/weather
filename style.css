@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(47,150,163), rgb(48, 62, 143));
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.degree {
+    font-weight: bold;
+    font-size: 5em;
+}
