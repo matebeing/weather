@@ -13,7 +13,7 @@ window.addEventListener('load', () => {
             lat = position.coords.latitude;
             
             //openweather api key
-            let key = 'insert here'
+            let key = '9a4aa4da44c72132f455fafa96b4a94e'
 
             const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&lang=pt_br&appid=${key}`
             fetch(api)
